@@ -1,7 +1,7 @@
 // Task 5
 const checkForSpam = (message) => {
-    let checkSale = message.toLowerCase().includes("sale");
-    let checkSpam = message.toLowerCase().includes("spam");
+    const checkSale = message.toLowerCase().includes("sale");
+    const checkSpam = message.toLowerCase().includes("spam");
 
     if (checkSpam || checkSale) {
         console.log(true);
